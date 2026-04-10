@@ -1,0 +1,11 @@
+.git
+.gitignore
+venv/
+.venv/
+node_modules/
+frontend/dist/
+backend/staticfiles/
+backend/db.sqlite3
+**/__pycache__/
+**/*.pyc
+render.yaml
