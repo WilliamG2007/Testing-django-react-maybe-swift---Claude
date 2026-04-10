@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE = "http://localhost:8000/api/todos";
+const BASE = "/api/todos";
 
 export const getTodos = () => axios.get(`${BASE}/`);
 export const createTodo = (data) => axios.post(`${BASE}/`, data);
